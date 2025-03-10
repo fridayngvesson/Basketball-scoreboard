@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('fonts/CursedTimerULiL.woff2') format('woff2'),
+        url('CursedTimerULiL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'CursedTimer', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+
+h3 {
+    color: white;
+    font-size: 3rem;
+}
+
+button {
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    margin-inline: .28rem;
+    font-family: "CursedTimer";
+}
+
+.column {
+    padding-bottom: 2rem;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 155px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: "CursedTimer";
+    
+}
+
+
+
+
+
+
+
+
+
